@@ -17,3 +17,5 @@
 ## License
 
 The oe_app as Project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+[![Laravel](https://github.com/butburg/oe-app/actions/workflows/laravel.yml/badge.svg)](https://github.com/butburg/oe-app/actions/workflows/laravel.yml)
