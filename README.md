@@ -14,6 +14,10 @@
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+## config the phpstorm ide 
+
+- to setup the pest with ide follow this neat guide: https://blog.ghanshyamdigital.com/how-to-set-up-pest-plugin-in-phpstorm-for-sail
+
 ## License
 
 The oe_app as Project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
