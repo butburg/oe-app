@@ -20,10 +20,8 @@ jobs:
           server: philwin.bplaced.net
           username: philwin_laravel
           password: ${{ secrets.FTP_PASSWORD_LARAVEL }}
-
-      - name: 📂 Sync public_laravel files to hosting
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with: 
-          server: philwin.bplaced.net
-          username: philwin_public-laravel
-          password: ${{ secrets.FTP_PASSWORD_PUBLIC_LARAVEL }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/public/**
